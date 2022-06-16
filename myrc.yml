@@ -5,7 +5,7 @@ metadata:
 spec: 
   replicas: 2
   selector: 
-    app: mynginx
+     app: mynginx
    template: 
    metadata: 
    labels: dev-env
@@ -16,4 +16,3 @@ spec:
          image: nginx
         ports: 
          - containerPort: 8080
-         
