@@ -8,7 +8,7 @@ spec:
      app: mynginx
   template: 
     metadata: 
-      labels: dev-env
+      labels: 
        app: mynginx
     spec: 
       containers:
