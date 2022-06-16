@@ -1,0 +1,10 @@
+api Version:  V1
+Kind: pod
+metadata:
+  name: mypod
+spec: 
+  containers:
+     -name: second-container
+      image: redis
+      ports:
+       - containerPort: 80   
