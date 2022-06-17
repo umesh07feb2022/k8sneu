@@ -5,12 +5,12 @@ metadata:
 spec:
    replicas: 1
    selector:
-       name: deployment
+       app: deployment
    template: 
       metadata:
          name: testpod1
          labels:
-            name: deployment
+            app: deployment
       spec:
         containers:
          - name: c00
