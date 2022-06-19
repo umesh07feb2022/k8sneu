@@ -4,9 +4,9 @@ metadata:
    name: hostvolume
 spec: 
   containers:
-    - name: testcontainer
-      image: centos
-      command: ["/bin/bash" , "-c" , "sleep 15000"]
+    - image: centos
+      name: testc
+      command: ["/bin/bash", "-c", "sleep 15000"]
       volumeMounts:
           - mountPath: /tmp/hostpath
             name: testvolume
